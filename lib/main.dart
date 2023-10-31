@@ -20,4 +20,5 @@ void main() async {
   await Hive.openBox(Database.boxName);
   runApp(ProviderScope(child: ModularApp(module: AppModule(), child: MyApp())));
   //pulldemonstration
+  //fetchdemonstration
 }
