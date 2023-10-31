@@ -19,9 +19,7 @@ void main() async {
   await Hive.openBox(Deleted.boxName);
   await Hive.openBox(Database.boxName);
   runApp(ProviderScope(child: ModularApp(module: AppModule(), child: MyApp())));
-<<<<<<< HEAD
-//abhishek22 edited
-=======
+
   //pulldemonstration
->>>>>>> a19aebed69264b34dc333c71931065d71649e1da
+
 }
